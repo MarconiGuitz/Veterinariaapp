@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Veterinaria</string>
+
+    <string name="ma_titulo">Veterinaria: PET HAPPY</string>
+    <string name="ma_datosVacuna">Vacunas de tu Mascota:</string>
+    <string name="ma_nombre">Nombre de tu mascota</string>
+    <string name="ma_edad">Edad de tu mascota</string>
+    <string name="ma_opPerro">Perro</string>
+    <string name="ma_opGato">Gato</string>
+    <string name="ma_opConejo">Conejo</string>
+    <string name="ma_primeraVacuna">Primovacunación (a las 6 Semanas)</string>
+    <string name="ma_segundaVacuna">Polivalente (a las 8 Semanas)</string>
+    <string name="ma_terceraVacuna">Rabia (a las 16 Semanas)</string>
+</resources>

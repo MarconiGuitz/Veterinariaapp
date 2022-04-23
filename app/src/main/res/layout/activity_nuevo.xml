@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <ImageView
+        android:id="@+id/imgMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/icon_dogbig"
+        tools:srcCompat="@tools:sample/avatars[2]" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:ems="10"
+        android:hint="Nombre de la mascota:"
+        android:inputType="textPersonName"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:hint="Edad de tu mascota(años):"
+        android:inputType="number"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:ems="10"
+        android:hint="Telefono del propietario:"
+        android:inputType="phone"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@color/colorAccent"
+        android:text="Guardar Mascota"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="34sp" />
+
+</LinearLayout>
